@@ -1,0 +1,1738 @@
+﻿{
+  "base": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "gap": 0.0,
+    "candidates": 611,
+    "feasible": true,
+    "mode": "profit",
+    "totals": {
+      "qty": 1880,
+      "sales": 2240,
+      "end": 240,
+      "revenue": 247130000,
+      "cogs": 159541050,
+      "holding": 260100,
+      "freight": 570000,
+      "cost": 133534530,
+      "profit": 86758850,
+      "operating_profit": 67708850
+    },
+    "cash": [
+      {
+        "week": 1,
+        "inflow": 67068750,
+        "outflow": 10850000,
+        "balance": 111218750
+      },
+      {
+        "week": 2,
+        "inflow": 63483750,
+        "outflow": 54673880,
+        "balance": 120028620
+      },
+      {
+        "week": 3,
+        "inflow": 111431250.0,
+        "outflow": 88710650,
+        "balance": 142749220.0
+      },
+      {
+        "week": 4,
+        "inflow": 133851250.0,
+        "outflow": 16350000,
+        "balance": 260250470.0
+      }
+    ],
+    "picks": [
+      {
+        "sku": "P01",
+        "name": "산업용 필터",
+        "vendor": "S1",
+        "week": 2,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 160,
+        "unit": 65760,
+        "case": "확대",
+        "price": 97200,
+        "sales": 180,
+        "end": 20,
+        "revenue": 17832000,
+        "cogs": 11926400,
+        "holding": 20400,
+        "freight": 40000,
+        "cost": 10561600,
+        "profit": 5845200,
+        "paid": [
+          0,
+          10561600,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3570000.0,
+          5346000.0
+        ],
+        "stocks": [
+          40,
+          130,
+          130,
+          20
+        ],
+        "peaks": [
+          40,
+          200,
+          130,
+          130
+        ]
+      },
+      {
+        "sku": "P02",
+        "name": "방진 마스크",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 140,
+        "unit": 42510,
+        "case": "기준",
+        "price": 66000,
+        "sales": 170,
+        "end": 20,
+        "revenue": 11220000,
+        "cogs": 7301200,
+        "holding": 13200,
+        "freight": 30000,
+        "cost": 5981400,
+        "profit": 3875600,
+        "paid": [
+          0,
+          5981400,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          2640000.0,
+          2970000.0
+        ],
+        "stocks": [
+          50,
+          110,
+          110,
+          20
+        ],
+        "peaks": [
+          50,
+          190,
+          110,
+          110
+        ]
+      },
+      {
+        "sku": "P03",
+        "name": "내화학 장갑",
+        "vendor": "S2",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 3,
+        "qty": 180,
+        "unit": 51585,
+        "case": "확대",
+        "price": 78600,
+        "sales": 220,
+        "end": 20,
+        "revenue": 17643000,
+        "cogs": 11553600,
+        "holding": 16500,
+        "freight": 60000,
+        "cost": 9345300,
+        "profit": 6012900,
+        "paid": [
+          0,
+          0,
+          9345300,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3712500.0,
+          5109000.0
+        ],
+        "stocks": [
+          60,
+          150,
+          150,
+          20
+        ],
+        "peaks": [
+          60,
+          240,
+          150,
+          150
+        ]
+      },
+      {
+        "sku": "P04",
+        "name": "흡착 패드",
+        "vendor": "S2",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 3,
+        "qty": 170,
+        "unit": 77900,
+        "case": "수익",
+        "price": 132000,
+        "sales": 190,
+        "end": 20,
+        "revenue": 24450000,
+        "cogs": 14965000,
+        "holding": 24600,
+        "freight": 60000,
+        "cost": 13303000,
+        "profit": 9400400,
+        "paid": [
+          0,
+          0,
+          13303000,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          4305000.0,
+          7920000.0
+        ],
+        "stocks": [
+          40,
+          140,
+          140,
+          20
+        ],
+        "peaks": [
+          40,
+          210,
+          140,
+          140
+        ]
+      },
+      {
+        "sku": "P05",
+        "name": "작업복 세트",
+        "vendor": "S2",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 3,
+        "qty": 150,
+        "unit": 110580,
+        "case": "확대",
+        "price": 164400,
+        "sales": 180,
+        "end": 20,
+        "revenue": 30240000,
+        "cogs": 20125400,
+        "holding": 34500,
+        "freight": 60000,
+        "cost": 16647000,
+        "profit": 10020100,
+        "paid": [
+          0,
+          0,
+          16647000,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          6900000.0,
+          8220000.0
+        ],
+        "stocks": [
+          50,
+          120,
+          120,
+          20
+        ],
+        "peaks": [
+          50,
+          200,
+          120,
+          120
+        ]
+      },
+      {
+        "sku": "P06",
+        "name": "보안경",
+        "vendor": "S2",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 3,
+        "qty": 160,
+        "unit": 44080,
+        "case": "확대",
+        "price": 67200,
+        "sales": 200,
+        "end": 20,
+        "revenue": 13737000,
+        "cogs": 8991200,
+        "holding": 14100,
+        "freight": 60000,
+        "cost": 7112800,
+        "profit": 4671700,
+        "paid": [
+          0,
+          0,
+          7112800,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3172500.0,
+          3696000.0
+        ],
+        "stocks": [
+          60,
+          130,
+          130,
+          20
+        ],
+        "peaks": [
+          60,
+          220,
+          130,
+          130
+        ]
+      },
+      {
+        "sku": "P07",
+        "name": "방음 보호구",
+        "vendor": "S1",
+        "week": 2,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 150,
+        "unit": 71616,
+        "case": "수익",
+        "price": 119100,
+        "sales": 170,
+        "end": 20,
+        "revenue": 19680000,
+        "cogs": 12270080,
+        "holding": 22200,
+        "freight": 40000,
+        "cost": 10782400,
+        "profit": 7347720,
+        "paid": [
+          0,
+          10782400,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3885000.0,
+          5955000.0
+        ],
+        "stocks": [
+          40,
+          120,
+          120,
+          20
+        ],
+        "peaks": [
+          40,
+          190,
+          120,
+          120
+        ]
+      },
+      {
+        "sku": "P08",
+        "name": "표면 세정제",
+        "vendor": "S1",
+        "week": 2,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 160,
+        "unit": 60672,
+        "case": "수익",
+        "price": 99800,
+        "sales": 190,
+        "end": 20,
+        "revenue": 18418000,
+        "cogs": 11594080,
+        "holding": 18600,
+        "freight": 40000,
+        "cost": 9747520,
+        "profit": 6765320,
+        "paid": [
+          0,
+          9747520,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3720000.0,
+          5489000.0
+        ],
+        "stocks": [
+          50,
+          130,
+          130,
+          20
+        ],
+        "peaks": [
+          50,
+          210,
+          130,
+          130
+        ]
+      },
+      {
+        "sku": "P09",
+        "name": "접착 테이프",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 140,
+        "unit": 50798,
+        "case": "확대",
+        "price": 74400,
+        "sales": 180,
+        "end": 20,
+        "revenue": 13716000,
+        "cogs": 9215760,
+        "holding": 15600,
+        "freight": 30000,
+        "cost": 7141720,
+        "profit": 4454640,
+        "paid": [
+          0,
+          7141720,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3510000.0,
+          3348000.0
+        ],
+        "stocks": [
+          60,
+          110,
+          110,
+          20
+        ],
+        "peaks": [
+          60,
+          200,
+          110,
+          110
+        ]
+      },
+      {
+        "sku": "P10",
+        "name": "포장 완충재",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 130,
+        "unit": 37148,
+        "case": "수익",
+        "price": 62800,
+        "sales": 150,
+        "end": 20,
+        "revenue": 9119000,
+        "cogs": 5646280,
+        "holding": 11700,
+        "freight": 30000,
+        "cost": 4859240,
+        "profit": 3431020,
+        "paid": [
+          0,
+          4859240,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          2047500.0,
+          2512000.0
+        ],
+        "stocks": [
+          40,
+          100,
+          100,
+          20
+        ],
+        "peaks": [
+          40,
+          170,
+          100,
+          100
+        ]
+      },
+      {
+        "sku": "P11",
+        "name": "정전기 매트",
+        "vendor": "S2",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 3,
+        "qty": 190,
+        "unit": 130720,
+        "case": "확대",
+        "price": 194500,
+        "sales": 220,
+        "end": 20,
+        "revenue": 43550000,
+        "cogs": 29022400,
+        "holding": 40800,
+        "freight": 60000,
+        "cost": 24896800,
+        "profit": 14426800,
+        "paid": [
+          0,
+          0,
+          24896800,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          8160000.0,
+          13615000.0
+        ],
+        "stocks": [
+          50,
+          160,
+          160,
+          20
+        ],
+        "peaks": [
+          50,
+          240,
+          160,
+          160
+        ]
+      },
+      {
+        "sku": "P12",
+        "name": "라벨 리본",
+        "vendor": "S2",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 3,
+        "qty": 150,
+        "unit": 87305,
+        "case": "수익",
+        "price": 149700,
+        "sales": 190,
+        "end": 20,
+        "revenue": 27525000,
+        "cogs": 16929650,
+        "holding": 27900,
+        "freight": 60000,
+        "cost": 13155750,
+        "profit": 10507450,
+        "paid": [
+          0,
+          0,
+          13155750,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          6277500.0,
+          7485000.0
+        ],
+        "stocks": [
+          60,
+          120,
+          120,
+          20
+        ],
+        "peaks": [
+          60,
+          210,
+          120,
+          120
+        ]
+      }
+    ],
+    "scope": "12상품 각각 한 업체·한 발주시점·한 가격수요 구간을 선택하는 제공 후보 범위"
+  },
+  "cost": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "gap": 0.0,
+    "candidates": 216,
+    "feasible": true,
+    "mode": "cost",
+    "totals": {
+      "qty": 1800,
+      "sales": 2160,
+      "end": 240,
+      "revenue": 236205000,
+      "cogs": 152808240,
+      "holding": 260100,
+      "freight": 530000,
+      "cost": 126799400,
+      "profit": 82606660,
+      "operating_profit": 63556660
+    },
+    "cash": [
+      {
+        "week": 1,
+        "inflow": 67068750,
+        "outflow": 10850000,
+        "balance": 111218750
+      },
+      {
+        "week": 2,
+        "inflow": 63483750,
+        "outflow": 72046100,
+        "balance": 102656400
+      },
+      {
+        "week": 3,
+        "inflow": 111431250.0,
+        "outflow": 64603300,
+        "balance": 149484350.0
+      },
+      {
+        "week": 4,
+        "inflow": 128388750.0,
+        "outflow": 16350000,
+        "balance": 261523100.0
+      }
+    ],
+    "picks": [
+      {
+        "sku": "P01",
+        "name": "산업용 필터",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 130,
+        "unit": 64838,
+        "case": "기준",
+        "price": 102000,
+        "sales": 150,
+        "end": 20,
+        "revenue": 15300000,
+        "cogs": 9852180,
+        "holding": 20400,
+        "freight": 30000,
+        "cost": 8458940,
+        "profit": 5397420,
+        "paid": [
+          0,
+          8458940,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3570000.0,
+          4080000.0
+        ],
+        "stocks": [
+          40,
+          100,
+          100,
+          20
+        ],
+        "peaks": [
+          40,
+          170,
+          100,
+          100
+        ]
+      },
+      {
+        "sku": "P02",
+        "name": "방진 마스크",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 140,
+        "unit": 42510,
+        "case": "기준",
+        "price": 66000,
+        "sales": 170,
+        "end": 20,
+        "revenue": 11220000,
+        "cogs": 7301200,
+        "holding": 13200,
+        "freight": 30000,
+        "cost": 5981400,
+        "profit": 3875600,
+        "paid": [
+          0,
+          5981400,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          2640000.0,
+          2970000.0
+        ],
+        "stocks": [
+          50,
+          110,
+          110,
+          20
+        ],
+        "peaks": [
+          50,
+          190,
+          110,
+          110
+        ]
+      },
+      {
+        "sku": "P03",
+        "name": "내화학 장갑",
+        "vendor": "S2",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 3,
+        "qty": 150,
+        "unit": 51585,
+        "case": "기준",
+        "price": 82500,
+        "sales": 190,
+        "end": 20,
+        "revenue": 15675000,
+        "cogs": 10006050,
+        "holding": 16500,
+        "freight": 60000,
+        "cost": 7797750,
+        "profit": 5592450,
+        "paid": [
+          0,
+          0,
+          7797750,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3712500.0,
+          4125000.0
+        ],
+        "stocks": [
+          60,
+          120,
+          120,
+          20
+        ],
+        "peaks": [
+          60,
+          210,
+          120,
+          120
+        ]
+      },
+      {
+        "sku": "P04",
+        "name": "흡착 패드",
+        "vendor": "S2",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 3,
+        "qty": 190,
+        "unit": 77900,
+        "case": "기준",
+        "price": 123000,
+        "sales": 210,
+        "end": 20,
+        "revenue": 25830000,
+        "cogs": 16523000,
+        "holding": 24600,
+        "freight": 60000,
+        "cost": 14861000,
+        "profit": 9222400,
+        "paid": [
+          0,
+          0,
+          14861000,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          4305000.0,
+          8610000.0
+        ],
+        "stocks": [
+          40,
+          160,
+          160,
+          20
+        ],
+        "peaks": [
+          40,
+          230,
+          160,
+          160
+        ]
+      },
+      {
+        "sku": "P05",
+        "name": "작업복 세트",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 120,
+        "unit": 110955,
+        "case": "기준",
+        "price": 172500,
+        "sales": 150,
+        "end": 20,
+        "revenue": 25875000,
+        "cogs": 16845500,
+        "holding": 34500,
+        "freight": 30000,
+        "cost": 13344600,
+        "profit": 8965000,
+        "paid": [
+          0,
+          13344600,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          6900000.0,
+          6037500.0
+        ],
+        "stocks": [
+          50,
+          90,
+          90,
+          20
+        ],
+        "peaks": [
+          50,
+          170,
+          90,
+          90
+        ]
+      },
+      {
+        "sku": "P06",
+        "name": "보안경",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 130,
+        "unit": 45922,
+        "case": "기준",
+        "price": 70500,
+        "sales": 170,
+        "end": 20,
+        "revenue": 11985000,
+        "cogs": 7871420,
+        "holding": 14100,
+        "freight": 30000,
+        "cost": 5999860,
+        "profit": 4069480,
+        "paid": [
+          0,
+          5999860,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3172500.0,
+          2820000.0
+        ],
+        "stocks": [
+          60,
+          100,
+          100,
+          20
+        ],
+        "peaks": [
+          60,
+          190,
+          100,
+          100
+        ]
+      },
+      {
+        "sku": "P07",
+        "name": "방음 보호구",
+        "vendor": "S2",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 3,
+        "qty": 170,
+        "unit": 70300,
+        "case": "기준",
+        "price": 111000,
+        "sales": 190,
+        "end": 20,
+        "revenue": 21090000,
+        "cogs": 13505000,
+        "holding": 22200,
+        "freight": 60000,
+        "cost": 12011000,
+        "profit": 7502800,
+        "paid": [
+          0,
+          0,
+          12011000,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3885000.0,
+          6660000.0
+        ],
+        "stocks": [
+          40,
+          140,
+          140,
+          20
+        ],
+        "peaks": [
+          40,
+          210,
+          140,
+          140
+        ]
+      },
+      {
+        "sku": "P08",
+        "name": "표면 세정제",
+        "vendor": "S2",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 3,
+        "qty": 180,
+        "unit": 59565,
+        "case": "기준",
+        "price": 93000,
+        "sales": 210,
+        "end": 20,
+        "revenue": 19530000,
+        "cogs": 12630400,
+        "holding": 18600,
+        "freight": 60000,
+        "cost": 10781700,
+        "profit": 6821000,
+        "paid": [
+          0,
+          0,
+          10781700,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3720000.0,
+          6045000.0
+        ],
+        "stocks": [
+          50,
+          150,
+          150,
+          20
+        ],
+        "peaks": [
+          50,
+          230,
+          150,
+          150
+        ]
+      },
+      {
+        "sku": "P09",
+        "name": "접착 테이프",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 110,
+        "unit": 50798,
+        "case": "기준",
+        "price": 78000,
+        "sales": 150,
+        "end": 20,
+        "revenue": 11700000,
+        "cogs": 7691820,
+        "holding": 15600,
+        "freight": 30000,
+        "cost": 5617780,
+        "profit": 3962580,
+        "paid": [
+          0,
+          5617780,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3510000.0,
+          2340000.0
+        ],
+        "stocks": [
+          60,
+          80,
+          80,
+          20
+        ],
+        "peaks": [
+          60,
+          170,
+          80,
+          80
+        ]
+      },
+      {
+        "sku": "P10",
+        "name": "포장 완충재",
+        "vendor": "S1",
+        "week": 2,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 150,
+        "unit": 37728,
+        "case": "기준",
+        "price": 58500,
+        "sales": 170,
+        "end": 20,
+        "revenue": 9945000,
+        "cogs": 6464640,
+        "holding": 11700,
+        "freight": 40000,
+        "cost": 5699200,
+        "profit": 3428660,
+        "paid": [
+          0,
+          5699200,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          2047500.0,
+          2925000.0
+        ],
+        "stocks": [
+          40,
+          120,
+          120,
+          20
+        ],
+        "peaks": [
+          40,
+          190,
+          120,
+          120
+        ]
+      },
+      {
+        "sku": "P11",
+        "name": "정전기 매트",
+        "vendor": "S1",
+        "week": 2,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 160,
+        "unit": 133152,
+        "case": "기준",
+        "price": 204000,
+        "sales": 190,
+        "end": 20,
+        "revenue": 38760000,
+        "cogs": 25441280,
+        "holding": 40800,
+        "freight": 40000,
+        "cost": 21344320,
+        "profit": 13237920,
+        "paid": [
+          0,
+          21344320,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          8160000.0,
+          11220000.0
+        ],
+        "stocks": [
+          50,
+          130,
+          130,
+          20
+        ],
+        "peaks": [
+          50,
+          210,
+          130,
+          130
+        ]
+      },
+      {
+        "sku": "P12",
+        "name": "라벨 리본",
+        "vendor": "S2",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 3,
+        "qty": 170,
+        "unit": 87305,
+        "case": "기준",
+        "price": 139500,
+        "sales": 210,
+        "end": 20,
+        "revenue": 29295000,
+        "cogs": 18675750,
+        "holding": 27900,
+        "freight": 60000,
+        "cost": 14901850,
+        "profit": 10531350,
+        "paid": [
+          0,
+          0,
+          14901850,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          6277500.0,
+          8370000.0
+        ],
+        "stocks": [
+          60,
+          140,
+          140,
+          20
+        ],
+        "peaks": [
+          60,
+          230,
+          140,
+          140
+        ]
+      }
+    ],
+    "scope": "12상품 각각 한 업체·한 발주시점·한 가격수요 구간을 선택하는 제공 후보 범위"
+  },
+  "changed": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "gap": 0.0,
+    "candidates": 413,
+    "feasible": true,
+    "mode": "profit",
+    "totals": {
+      "qty": 1600,
+      "sales": 1950,
+      "end": 250,
+      "revenue": 221056000,
+      "cogs": 140048110,
+      "holding": 267900,
+      "freight": 450000,
+      "cost": 114749230,
+      "profit": 80289990,
+      "operating_profit": 61239990
+    },
+    "cash": [
+      {
+        "week": 1,
+        "inflow": 67068750,
+        "outflow": 10850000,
+        "balance": 111218750
+      },
+      {
+        "week": 2,
+        "inflow": 63483750,
+        "outflow": 105906440,
+        "balance": 68796060
+      },
+      {
+        "week": 3,
+        "inflow": 112961250.0,
+        "outflow": 4250000,
+        "balance": 177507310.0
+      },
+      {
+        "week": 4,
+        "inflow": 119284250.0,
+        "outflow": 30792790,
+        "balance": 265998770.0
+      }
+    ],
+    "picks": [
+      {
+        "sku": "P01",
+        "name": "산업용 필터",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 140,
+        "unit": 64838,
+        "case": "수익",
+        "price": 109500,
+        "sales": 160,
+        "end": 20,
+        "revenue": 16770000,
+        "cogs": 10500560,
+        "holding": 20400,
+        "freight": 30000,
+        "cost": 9107320,
+        "profit": 6219040,
+        "paid": [
+          0,
+          9107320,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          5100000.0,
+          3285000.0
+        ],
+        "stocks": [
+          40,
+          80,
+          80,
+          20
+        ],
+        "peaks": [
+          40,
+          180,
+          80,
+          80
+        ]
+      },
+      {
+        "sku": "P02",
+        "name": "방진 마스크",
+        "vendor": "S1",
+        "week": 2,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 120,
+        "unit": 43104,
+        "case": "수익",
+        "price": 70800,
+        "sales": 150,
+        "end": 20,
+        "revenue": 10236000,
+        "cogs": 6510400,
+        "holding": 13200,
+        "freight": 40000,
+        "cost": 5212480,
+        "profit": 3672400,
+        "paid": [
+          0,
+          5212480,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          2640000.0,
+          2478000.0
+        ],
+        "stocks": [
+          50,
+          90,
+          90,
+          20
+        ],
+        "peaks": [
+          50,
+          170,
+          90,
+          90
+        ]
+      },
+      {
+        "sku": "P03",
+        "name": "내화학 장갑",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 130,
+        "unit": 53722,
+        "case": "수익",
+        "price": 88600,
+        "sales": 170,
+        "end": 20,
+        "revenue": 14513000,
+        "cogs": 9209420,
+        "holding": 16500,
+        "freight": 30000,
+        "cost": 7013860,
+        "profit": 5257080,
+        "paid": [
+          0,
+          7013860,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3712500.0,
+          3544000.0
+        ],
+        "stocks": [
+          60,
+          100,
+          100,
+          20
+        ],
+        "peaks": [
+          60,
+          190,
+          100,
+          100
+        ]
+      },
+      {
+        "sku": "P04",
+        "name": "흡착 패드",
+        "vendor": "S3",
+        "week": 2,
+        "arrive": 2,
+        "payweek": 4,
+        "qty": 170,
+        "unit": 84487,
+        "case": "수익",
+        "price": 132000,
+        "sales": 190,
+        "end": 20,
+        "revenue": 24450000,
+        "cogs": 15953050,
+        "holding": 24600,
+        "freight": 80000,
+        "cost": 14442790,
+        "profit": 8392350,
+        "paid": [
+          0,
+          0,
+          0,
+          14442790
+        ],
+        "receipts": [
+          0,
+          0,
+          4305000.0,
+          7920000.0
+        ],
+        "stocks": [
+          40,
+          140,
+          140,
+          20
+        ],
+        "peaks": [
+          40,
+          210,
+          140,
+          140
+        ]
+      },
+      {
+        "sku": "P05",
+        "name": "작업복 세트",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 100,
+        "unit": 110955,
+        "case": "수익",
+        "price": 185200,
+        "sales": 130,
+        "end": 20,
+        "revenue": 23060000,
+        "cogs": 14626400,
+        "holding": 34500,
+        "freight": 30000,
+        "cost": 11125500,
+        "profit": 8369100,
+        "paid": [
+          0,
+          11125500,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          6900000.0,
+          4630000.0
+        ],
+        "stocks": [
+          50,
+          70,
+          70,
+          20
+        ],
+        "peaks": [
+          50,
+          150,
+          70,
+          70
+        ]
+      },
+      {
+        "sku": "P06",
+        "name": "보안경",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 110,
+        "unit": 45922,
+        "case": "수익",
+        "price": 75700,
+        "sales": 150,
+        "end": 20,
+        "revenue": 10887000,
+        "cogs": 6952980,
+        "holding": 14100,
+        "freight": 30000,
+        "cost": 5081420,
+        "profit": 3889920,
+        "paid": [
+          0,
+          5081420,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3172500.0,
+          2271000.0
+        ],
+        "stocks": [
+          60,
+          80,
+          80,
+          20
+        ],
+        "peaks": [
+          60,
+          170,
+          80,
+          80
+        ]
+      },
+      {
+        "sku": "P07",
+        "name": "방음 보호구",
+        "vendor": "S1",
+        "week": 2,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 150,
+        "unit": 71616,
+        "case": "수익",
+        "price": 119100,
+        "sales": 170,
+        "end": 20,
+        "revenue": 19680000,
+        "cogs": 12270080,
+        "holding": 22200,
+        "freight": 40000,
+        "cost": 10782400,
+        "profit": 7347720,
+        "paid": [
+          0,
+          10782400,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3885000.0,
+          5955000.0
+        ],
+        "stocks": [
+          40,
+          120,
+          120,
+          20
+        ],
+        "peaks": [
+          40,
+          190,
+          120,
+          120
+        ]
+      },
+      {
+        "sku": "P08",
+        "name": "표면 세정제",
+        "vendor": "S1",
+        "week": 2,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 160,
+        "unit": 60672,
+        "case": "수익",
+        "price": 99800,
+        "sales": 190,
+        "end": 20,
+        "revenue": 18418000,
+        "cogs": 11594080,
+        "holding": 18600,
+        "freight": 40000,
+        "cost": 9747520,
+        "profit": 6765320,
+        "paid": [
+          0,
+          9747520,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3720000.0,
+          5489000.0
+        ],
+        "stocks": [
+          50,
+          130,
+          130,
+          20
+        ],
+        "peaks": [
+          50,
+          210,
+          130,
+          130
+        ]
+      },
+      {
+        "sku": "P09",
+        "name": "접착 테이프",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 100,
+        "unit": 50798,
+        "case": "수익",
+        "price": 83700,
+        "sales": 130,
+        "end": 30,
+        "revenue": 10368000,
+        "cogs": 6675860,
+        "holding": 23400,
+        "freight": 30000,
+        "cost": 5109800,
+        "profit": 3638740,
+        "paid": [
+          0,
+          5109800,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          3510000.0,
+          1674000.0
+        ],
+        "stocks": [
+          60,
+          70,
+          70,
+          30
+        ],
+        "peaks": [
+          60,
+          160,
+          70,
+          70
+        ]
+      },
+      {
+        "sku": "P10",
+        "name": "포장 완충재",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 130,
+        "unit": 37148,
+        "case": "수익",
+        "price": 62800,
+        "sales": 150,
+        "end": 20,
+        "revenue": 9119000,
+        "cogs": 5646280,
+        "holding": 11700,
+        "freight": 30000,
+        "cost": 4859240,
+        "profit": 3431020,
+        "paid": [
+          0,
+          4859240,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          2047500.0,
+          2512000.0
+        ],
+        "stocks": [
+          40,
+          100,
+          100,
+          20
+        ],
+        "peaks": [
+          40,
+          170,
+          100,
+          100
+        ]
+      },
+      {
+        "sku": "P11",
+        "name": "정전기 매트",
+        "vendor": "S4",
+        "week": 1,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 140,
+        "unit": 131235,
+        "case": "수익",
+        "price": 219000,
+        "sales": 170,
+        "end": 20,
+        "revenue": 36030000,
+        "cogs": 22548200,
+        "holding": 40800,
+        "freight": 30000,
+        "cost": 18402900,
+        "profit": 13411000,
+        "paid": [
+          0,
+          18402900,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          8160000.0,
+          9855000.0
+        ],
+        "stocks": [
+          50,
+          110,
+          110,
+          20
+        ],
+        "peaks": [
+          50,
+          190,
+          110,
+          110
+        ]
+      },
+      {
+        "sku": "P12",
+        "name": "라벨 리본",
+        "vendor": "S1",
+        "week": 2,
+        "arrive": 2,
+        "payweek": 2,
+        "qty": 150,
+        "unit": 92160,
+        "case": "수익",
+        "price": 149700,
+        "sales": 190,
+        "end": 20,
+        "revenue": 27525000,
+        "cogs": 17560800,
+        "holding": 27900,
+        "freight": 40000,
+        "cost": 13864000,
+        "profit": 9896300,
+        "paid": [
+          0,
+          13864000,
+          0,
+          0
+        ],
+        "receipts": [
+          0,
+          0,
+          6277500.0,
+          7485000.0
+        ],
+        "stocks": [
+          60,
+          120,
+          120,
+          20
+        ],
+        "peaks": [
+          60,
+          210,
+          120,
+          120
+        ]
+      }
+    ],
+    "scope": "12상품 각각 한 업체·한 발주시점·한 가격수요 구간을 선택하는 제공 후보 범위"
+  },
+  "infeasible": {
+    "status": 2,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "candidates": 611
+  }
+}
